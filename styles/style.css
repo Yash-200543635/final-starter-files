@@ -1,0 +1,178 @@
+@import url(./reset.css);
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+}
+
+/* NAVIGATION */
+#main-nav {
+    background-color: blueviolet;
+    padding: 0.15em;
+}
+
+nav ul {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-start: 1;
+    justify-content: center;
+    gap: 4em;
+    height: 65px;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px;
+}
+
+nav ul li a {
+    margin-left: 120px;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* HEADER */
+header {
+    background-image: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+    color: white;
+    text-align: center;
+    padding: 5em;
+    height: 300px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 1em;
+}
+
+header h2 {
+    font-size: 28px;
+}
+
+#B1 {
+    color: white;
+    background-color: rgb(74, 72, 72);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 15px;
+    margin-bottom: 45px;
+    margin-top: 35px;
+}
+
+/* MAIN CONTENT */
+#main-content {
+    display: flex;
+    max-width: 1280px !important;
+    margin: 0 auto !important;
+}
+
+main {
+    order: 2;
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+main cite {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#img1 {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    height: 250px;
+    width: 250x;
+}
+
+#img2 {
+    float: right;
+    margin-right: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+#paragraph {
+    float: right;
+    clear: right;
+    padding-left: 18px;
+    margin-bottom: 12px;
+    font-size: small;
+}
+
+/* ASIDE */
+.grey {
+    background-color: antiquewhite;
+    display: flex;
+}
+
+aside {
+    width: 30%;
+    order: 1;
+    border-radius: 5px;
+    margin-top: 2%;
+    padding: 1rem;
+    padding-right: 0.5%;
+    padding-left: 7px;
+    padding-bottom: 9px;
+    font-size: 15px;
+}
+
+aside ul li {
+    font-size: 1em;
+    margin-top: 0;
+}
+
+#h2 {
+    font-size: 30px;
+    display: flex;
+    border-radius: 3px;
+    margin-top: 15px;
+    background-color: blueviolet;
+    color: white;
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside li {
+    margin-bottom: 1rem;
+    padding: 10px;
+}
+
+aside li strong {
+    font-style: bold;
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* FOOTER */
+footer {
+    background-image: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+ footer a:hover {
+    text-decoration: underline;
+ }
